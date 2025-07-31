@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let selectedValue;
-document.getElementById("colorSelect").addEventListener("change", function () {
+document.getElementById("colorSelect").addEventListener("mouseleave", function () {
     const elements = document.getElementById("colorSelect").children;
     selectedValue = this.value;
     
